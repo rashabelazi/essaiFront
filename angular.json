@@ -101,5 +101,8 @@
       }
     }
   },
-  "defaultProject": "essaiFront"
+  "defaultProject": "essaiFront",
+  "cli": {
+    "analytics": "c321e44a-9152-4219-a132-3759ec732759"
+  }
 }
