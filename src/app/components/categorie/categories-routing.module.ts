@@ -6,7 +6,7 @@ import { AjoutCategorieComponent } from './ajout-categorie/ajout-categorie.compo
 @NgModule({
   imports: [RouterModule.forChild([
 		{ path: '', component: CategorieComponent },
-    { path: '/ajout', component: AjoutCategorieComponent }
+    { path: 'ajout', component: AjoutCategorieComponent }
 	])],
 	exports: [RouterModule]
 })

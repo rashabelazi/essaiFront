@@ -180,14 +180,19 @@
     text-align: center;
   }
   
-  .status.activé {
-    background-color: #ed1c24;
-    color:white;
-  }
-  
-  .status.desactivé {
-    background-color: #ed1c24;
-    color: white;
+  .supprimer{
+    background-color:#ed1c24;
+    color:white ;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin:5px;
+    height: 40px;
+    width: 80px;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+
   }
   
   

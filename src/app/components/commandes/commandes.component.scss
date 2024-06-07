@@ -178,6 +178,7 @@
     padding: .4rem 0;
     border-radius: 2rem;
     text-align: center;
+    width: 100px;
   }
   
   .status.activé {
@@ -307,31 +308,6 @@
     width: 2rem;
     height: auto;
   }
-  .modifierbtn{
-    background-color:#ed1c24;
-    color:white ;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin:5px;
-    height: 40px;
-    width: 80px;
-    justify-content: space-between;
-    border: none;
-    cursor: pointer;
+ 
   
-  }
-  .ajoutebtn{
-    background-color: #ed1c24;
-    color:white ;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin:5px;
-    height: 40px;
-    width: 80px;
-    justify-content: space-between;
-    border: none;
-    cursor: pointer;
-  }
   
