@@ -1,10 +1,8 @@
-import { Privilege } from "./privilege";
+import { Permissions } from "./permission";
 
 export class Role {
-  id?: any;
-  libelle?: string;
-  active?:Boolean;
-  
-  privileges?:Privilege[]
+  id?: number;
+  label?: string;
+  flag?: boolean;
+  permissions?: Permissions[];
 }
-

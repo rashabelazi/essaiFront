@@ -1,5 +1,8 @@
+import { Produit } from "./produit";
+
 export class Categorie {
-  id?: number;
-  nom?: string;
-  description?: string;
+  id?: any;
+  libcateg?: string;
+  flag?: boolean;
+  produitList?:Produit[];
 }

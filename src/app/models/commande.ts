@@ -1,8 +1,12 @@
+import { Client } from "./client";
+
 export class Commande {
-  id?: any;
-  numberOrder?: number;
-  articlesNumber?:number;
-  totalPrice?:any ;
-  deliveryType?: string;
-  orderStatus?: Boolean;
+  idcmd?: number;
+  numtransac?: number;
+  datecmd?: Date;
+  etatcmd?: string;
+  nbarticle?: number;
+  totalcmd?: number;
+  flag?: boolean;
+  client?: Client;
 }

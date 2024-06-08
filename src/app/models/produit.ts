@@ -1,14 +1,21 @@
 import { Marque } from "./marque";
 import { Categorie } from "./categorie";
+import { User } from "./user";
+import { Commande } from "./commande";
 
 export class Produit {
-  id?: number;
-  reference?: string;
+  idPROD?: number;
+  nomprod?: string;
+  reference?: number;
+  prix?: number;
   description?: string;
-  price?: any;
-  soldQuantity?: any;
-  availableQuantity?: any;
+  flag?: boolean;
+  image?: string; // Ajouté pour correspondre à l'attribut image dans le backend
+  date?: Date; // Ajouté pour correspondre à l'attribut date dans le backend
 
-  marque?:Marque;
-  categorie?:Categorie;
+  m?: Marque;
+  //stock?: Stock[]; // Décommenter et définir si la classe Stock est définie dans le frontend
+  categorie?: Categorie;
+  userEntityList?: User[];
+  commandes?: Commande[];
 }

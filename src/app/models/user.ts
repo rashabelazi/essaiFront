@@ -1,17 +1,13 @@
+import { Produit } from './produit';
 import { Role } from './role';
 
 export class User {
-  id?: any;
+  id?: number;
   username?: string;
-  fullName?: string ;
-  email?: string;
-  phoneNumber?: number;
-  status?:Boolean
   password?: string;
-
-  role: Role;
+  mail?: string;
+  numTel?: string; // Corrigé pour correspondre à String dans le backend
+  flag?: boolean;
+  roles?: Role; // Rendu optionnel pour correspondre aux autres propriétés
+  produits?: Produit[]; // Ajouté pour correspondre à la relation ManyToMany dans le backend
 }
-
-
-
-

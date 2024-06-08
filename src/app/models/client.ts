@@ -1,13 +1,15 @@
+import { User } from "./user";
+
 export class Client {
-  id?: any;
-  username?: string;
-  fullName?: string ;
+  id?: number;
+  nom?: string;
+  prenom?: string;
   email?: string;
-  phoneNumber?: number;
-  adress?: string;
-  satatus?: Boolean;
+  numtel?: number;
+  codepostal?: number;
+  datenais?: Date;
+  cin?: number;
+  flag?: boolean;
+  addresse?: string;
+  user?: User;
 }
-
-
-
-
