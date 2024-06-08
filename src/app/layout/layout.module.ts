@@ -20,7 +20,9 @@ const routes: Routes = [
       { path: 'categorie', loadChildren: () => import('../components/categorie/categories.module').then(m => m.CategoriesModule) },
       { path: 'commandes', loadChildren: () => import('../components/commandes/commandes.module').then(m => m.CommandesModule) },
       { path: 'client', loadChildren: () => import('../components/client/client.module').then(m => m.ClientModule) },
-      
+      { path: 'produit', loadChildren: () => import('../components/produit/produit.module').then(m => m.ProduitModule) },
+
+
       { path: '**', redirectTo: '/notfound' },
     ]
   }
